@@ -138,8 +138,8 @@ def authDove():
     }
 
     data = {
-    'username': 'bahamasdesigncentre@gmail.com',
-    'passwd': 'bahamas',
+    'username': USERNAME,
+    'passwd': PASSWORD,
     'Submit': 'Login',
     'option': 'com_user',
     'task': 'login',
@@ -155,6 +155,8 @@ def dovetail():
     inputF = []
     session = authDove()
     type_ = ''
+    USERNAME = 'email@gmail.com'
+    PASSWORD = 'ExamplePass123'
 
     print("WARNING: Ensure dupes file is updated!")
     while(True):
